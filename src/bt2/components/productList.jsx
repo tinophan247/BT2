@@ -1,7 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import ProductItem from "./productItem";
 
 function ProductList() {
+    const [list, setList] = useState(productList)
+
     const productList = [
         {
             id : 1,
@@ -16,6 +18,8 @@ function ProductList() {
             price : '55.000'
         },
     ]
+
+
   return (
     <div>
       <h1 className="text-4xl font-semibold uppercase text-center mt-2">
@@ -26,7 +30,7 @@ function ProductList() {
       </p>
       <div className="flex justify-center mt-10">
         <div className="grid grid-cols-4 gap-20 ">
-            {productList.map((sp,index)=> (
+            {list.map((sp,index)=> (
             <ProductItem key={index} sanpham={sp}/>
             ))}
         </div>
