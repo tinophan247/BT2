@@ -1,0 +1,28 @@
+{
+  "productList" : [
+    {
+        "id" : 1,
+        "name" : "Cold Brew",
+        "imgURL" : "https://aeonmall-binhduongcanary.com.vn/wp-content/uploads/2022/01/cold-brew.webp",
+        "price" : "65.000"
+    },
+    {
+        "id" : 2,
+        "name" : "Americano",
+        "imgURL" : "https://globalassets.starbucks.com/digitalassets/products/bev/SBX20190617_CaffeAmericano.jpg?impolicy=1by1_wide_topcrop_630",
+        "price" : "55.000"
+    },
+    {
+        "id" : 3,
+        "name" : "Frappuchino",
+        "imgURL" : "https://globalassets.starbucks.com/digitalassets/products/bev/SBX20190528_CoffeeFrapp.jpg?impolicy=1by1_wide_topcrop_630",
+        "price" : "65.000"
+    },
+    {
+        "id" : 4,
+        "name" : "Mocha Coffee",
+        "imgURL" : "https://globalassets.starbucks.com/digitalassets/products/bev/SBX20220607_CaffeMocha.jpg?impolicy=1by1_wide_topcrop_630",
+        "price" : "55.000"
+    }
+]
+}
