@@ -8,6 +8,8 @@ import Login from "./bt4/pages/Login";
 import About from "./bt4/pages/About";
 import Product from "./bt4/pages/Product";
 import Home from "./bt4/pages/Home";
+import BT5 from "./bt5/bt5";
+import Cart from "./bt5/component/cart";
 
 function App() {
   return (
@@ -21,6 +23,9 @@ function App() {
         <Route path="about" element={<About />} />
         <Route path="product" element={<Product />} />
       </Route>
+      <Route path="/bt5" element={<BT5 />}/>
+      <Route path="/bt5/cart" element={<Cart />} />
+
     </Routes>
   );
 }
